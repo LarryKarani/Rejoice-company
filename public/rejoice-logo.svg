@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 360 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background elements -->
+  <defs>
+    <linearGradient id="brandGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b4cb8" />
+      <stop offset="100%" stop-color="#2c378f" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Logo shape - stylized connection symbol -->
+  <g>
+    <!-- Connecting nodes symbol -->
+    <circle cx="50" cy="50" r="18" fill="url(#brandGradient)" />
+    <circle cx="100" cy="30" r="14" fill="url(#brandGradient)" />
+    <circle cx="100" cy="70" r="14" fill="url(#brandGradient)" />
+    
+    <!-- Connection lines -->
+    <path d="M50,50 L100,30" stroke="url(#brandGradient)" stroke-width="5" stroke-linecap="round" />
+    <path d="M50,50 L100,70" stroke="url(#brandGradient)" stroke-width="5" stroke-linecap="round" />
+    
+    <!-- Pulse animation effect -->
+    <circle cx="50" cy="50" r="24" fill="none" stroke="url(#brandGradient)" stroke-width="2" opacity="0.5">
+      <animate attributeName="r" values="18;30;18" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="3s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- Company name - with white text -->
+  <g transform="translate(130, 55)">
+    <text font-family="Arial, sans-serif" font-weight="700" font-size="24" fill="white">
+      REJOICE
+    </text>
+  </g>
+  
+  <!-- Tagline - also in white -->
+  <g transform="translate(130, 75)">
+    <text font-family="Arial, sans-serif" font-size="12" fill="white">
+      Connecting Exceptional Talent
+    </text>
+  </g>
+</svg>
