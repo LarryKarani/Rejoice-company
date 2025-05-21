@@ -89,7 +89,6 @@ const Home = () => {
         </div>
       </section>
 
-
       {/* Stats Section */}
       <section
         id="stats"
@@ -265,7 +264,7 @@ const Home = () => {
                 </div>
               </div>
               <div className="md:w-2/3 md:pl-8">
-                <h3 className="text-2xl font-bold mb-2">Ibrahim</h3>
+                <h3 className="text-2xl font-bold mb-2">Ibrahim Gikonyo</h3>
                 <p className="text-primary font-semibold mb-4">
                   Chief Executive Officer
                 </p>
@@ -278,16 +277,10 @@ const Home = () => {
                 </p>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/ibrahim-gikonyo-106584249/"
                     className="text-primary hover:text-primary-dark transition-colors"
                   >
                     LinkedIn
-                  </a>
-                  <a
-                    href="#"
-                    className="text-primary hover:text-primary-dark transition-colors"
-                  >
-                    Twitter
                   </a>
                 </div>
               </div>
