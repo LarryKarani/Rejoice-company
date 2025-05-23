@@ -29,7 +29,7 @@ const About = () => {
       name: "Anjali Lee",
       position: "Business Development Officer",
       bio: "Focused on expanding our outreach and creating meaningful partnerships with employers worldwide.",
-      image: "/images/anjali.jpg", // Replace with actual image path
+      image: "/anjali.jpeg", // Replace with actual image path
       social: [
         {
           icon: <Linkedin size={20} />,

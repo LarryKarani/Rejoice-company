@@ -270,10 +270,10 @@ const Home = () => {
                 </p>
                 <p className="text-gray-600 mb-4">
                   With over 15 years of experience in the recruitment industry,
-                  John has led our company to become one of the most trusted
-                  recruitment agencies in the market. His visionary leadership
-                  and deep understanding of talent acquisition have helped
-                  countless businesses find their perfect match.
+                  Ibrahim Gikonyo has led our company to become one of the most
+                  trusted recruitment agencies in the market. His visionary
+                  leadership and deep understanding of talent acquisition have
+                  helped countless businesses find their perfect match.
                 </p>
                 <div className="flex space-x-4">
                   <a
