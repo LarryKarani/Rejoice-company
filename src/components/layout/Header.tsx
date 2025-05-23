@@ -28,9 +28,9 @@ const Header = () => {
       <div className="container flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2">
           <img
-            src="/logo.png"
+            src="/logoWhite.png"
             alt="Rejoice Recruitment"
-            className="h-20 w-auto"
+            className="h-24 w-auto "
           />
         </Link>
 
