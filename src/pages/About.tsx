@@ -49,6 +49,18 @@ const About = () => {
         },
       ],
     },
+    {
+      name: "Daniel",
+      position: "Healthcare Recruitment Specialist",
+      bio: "Dedicated to finding the best healthcare professionals for our clients, ensuring quality care and expertise.",
+      image: "/daniel.jpeg", // Replace with actual image path
+      social: [
+        {
+          icon: <Linkedin size={20} />,
+          url: "#",
+        },
+      ],
+    },
   ];
 
   useEffect(() => {
