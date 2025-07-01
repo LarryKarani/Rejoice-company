@@ -269,7 +269,7 @@ const Home = () => {
                   Chief Executive Officer
                 </p>
                 <p className="text-gray-600 mb-4">
-                  With over 15 years of experience in the recruitment industry,
+                  With over 5 years of experience in the recruitment industry,
                   Ibrahim Gikonyo has led our company to become one of the most
                   trusted recruitment agencies in the market. His visionary
                   leadership and deep understanding of talent acquisition have
