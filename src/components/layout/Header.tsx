@@ -30,7 +30,7 @@ const Header = () => {
           <img
             src={isScrolled ? "/logoDark.svg" : "/logoWhite.svg"}
             alt="Rejoice Recruitment"
-            className="h-24 w-24 lg:h-40 lg:w-40 transition-all duration-300"
+            className="h-[116px] w-[300px] lg:h-[116px] lg:w-[300px] transition-all duration-300"
           />
         </Link>
 
