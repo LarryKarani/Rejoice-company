@@ -15,7 +15,7 @@ const About = () => {
   const team = [
     {
       name: "Ibrahim Gikonyo",
-      position: "CEO & Founder",
+      position: "CEO",
       bio: "Leading our agency with vision and dedication to transform lives through international recruitment opportunities.",
       image: "/ceo.jpeg", // Replace with actual image path
       social: [

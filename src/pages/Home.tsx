@@ -254,36 +254,6 @@ const Home = () => {
                 transition: "opacity 0.6s ease-out, transform 0.6s ease-out",
               }}
             >
-              <div className="md:w-1/3 mb-6 md:mb-0">
-                <div className="relative w-64 h-64 mx-auto overflow-hidden rounded-full border-4 border-primary">
-                  <img
-                    src="/ceo.jpeg"
-                    alt="Company CEO"
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-              </div>
-              <div className="md:w-2/3 md:pl-8">
-                <h3 className="text-2xl font-bold mb-2">Ibrahim Gikonyo</h3>
-                <p className="text-primary font-semibold mb-4">
-                  Chief Executive Officer
-                </p>
-                <p className="text-gray-600 mb-4">
-                  With over 5 years of experience in the recruitment industry,
-                  Ibrahim Gikonyo has led our company to become one of the most
-                  trusted recruitment agencies in the market. His visionary
-                  leadership and deep understanding of talent acquisition have
-                  helped countless businesses find their perfect match.
-                </p>
-                <div className="flex space-x-4">
-                  <a
-                    href="https://www.linkedin.com/in/ibrahim-gikonyo-106584249/"
-                    className="text-primary hover:text-primary-dark transition-colors"
-                  >
-                    LinkedIn
-                  </a>
-                </div>
-              </div>
             </div>
           </div>
         </div>
