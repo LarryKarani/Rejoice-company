@@ -227,37 +227,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Leadership Section - New section for CEO */}
-      <section
-        id="leadership"
-        className={`section bg-white animate-on-scroll ${
-          visibleSections.leadership ? "animate-fade-in" : "opacity-0"
-        }`}
-      >
-        <div className="container">
-          <div className="text-center max-w-3xl mx-auto mb-16">
-            <h2 className="mb-4">Our Leadership</h2>
-            <p className="text-gray-600">
-              Meet the visionary leader behind our successful recruitment
-              agency.
-            </p>
-          </div>
-
-          <div className="max-w-3xl mx-auto">
-            <div
-              className="flex flex-col md:flex-row items-center bg-gray-50 rounded-xl p-8 shadow-md"
-              style={{
-                opacity: visibleSections.leadership ? 1 : 0,
-                transform: visibleSections.leadership
-                  ? "translateY(0)"
-                  : "translateY(30px)",
-                transition: "opacity 0.6s ease-out, transform 0.6s ease-out",
-              }}
-            >
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Testimonials Section */}
       <section
