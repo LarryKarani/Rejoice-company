@@ -13,18 +13,18 @@ const About = () => {
   });
 
   const team = [
-    {
-      name: "Ibrahim Gikonyo",
-      position: "CEO",
-      bio: "Leading our agency with vision and dedication to transform lives through international recruitment opportunities.",
-      image: "/ceo.jpeg", // Replace with actual image path
-      social: [
-        {
-          icon: <Linkedin size={20} />,
-          url: "https://www.linkedin.com/in/ibrahim-gikonyo-106584249/",
-        },
-      ],
-    },
+    // {
+    //   name: "Ibrahim Gikonyo",
+    //   position: "CEO",
+    //   bio: "Leading our agency with vision and dedication to transform lives through international recruitment opportunities.",
+    //   image: "/ceo.jpeg", // Replace with actual image path
+    //   social: [
+    //     {
+    //       icon: <Linkedin size={20} />,
+    //       url: "https://www.linkedin.com/in/ibrahim-gikonyo-106584249/",
+    //     },
+    //   ],
+    // },
     {
       name: "Anjali Lee",
       position: "Business Development Officer",

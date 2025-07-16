@@ -21,7 +21,6 @@ const Home = () => {
     testimonials: false,
     cta: false,
   });
-
   useEffect(() => {
     const handleScroll = () => {
       const sections = document.querySelectorAll(".animate-on-scroll");
@@ -226,7 +225,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
 
       {/* Testimonials Section */}
       <section
